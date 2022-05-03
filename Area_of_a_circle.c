@@ -2,9 +2,8 @@
 int main()
 {
     int r;
-    float pi=3.14,are;
+    float pi=3.14,area;
     scanf("%d",&r);
-    are=pi*r*r;
-    printf("%.2f ",are);
-    
+    area=pi*r*r;
+    printf("%.2f",area);
 }
