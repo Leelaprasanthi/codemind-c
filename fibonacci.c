@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int n,x=0,y=1,z,i;
+    int n,a=0,b=1,i,c;
     scanf("%d",&n);
-    for(i=1;i<=n;i++)
+    printf("%d %d ",a,b);
+    for(i=1;i<n-1;i++)
     {
-        printf("%d ",x);
-        z=x+y;
-        x=y;
-        y=z;
+        c=a+b;
+        printf("%d ",c);
+        a=b;
+        b=c;
     }
-    return 0;
 }
